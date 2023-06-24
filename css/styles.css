@@ -103,13 +103,6 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
-
-.action-content-inner-wrapper {
-
-}
-.types-of-washing-wrapper {
-
-}
 .types-of-washing-list {
   display: flex;
   list-style: none;
@@ -149,15 +142,8 @@ only screen and (                min-resolution: 2dppx) {
   display: flex;
 }
 
-
-
-
-
 .action-wrapper {
   position: relative;
-
-
-
 
 }
 
@@ -224,9 +210,7 @@ opacity: 0.8;
   display: flex;
   list-style: none;
 }
-.action-wrapper-item {
 
-}
 .action-card {
   display: flex;
   flex-direction: column;
@@ -273,6 +257,4 @@ opacity: 0.8;
   color: #fff;
   font-size: 24px;
   font-weight: 700;
-}
-.box {
 }
