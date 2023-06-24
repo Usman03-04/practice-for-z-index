@@ -20,7 +20,7 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: rgb(218, 133, 147);
   color: #222;
 }
 
@@ -72,7 +72,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -93,4 +93,186 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
+}
+
+
+.action-content-wrapper{
+  padding-left:200px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+}
+
+
+.action-content-inner-wrapper {
+
+}
+.types-of-washing-wrapper {
+
+}
+.types-of-washing-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+
+}
+.types-of-washing-item {
+  padding: 0;
+  margin: 0;
+  margin-right: 60px;
+  cursor: pointer;
+
+}
+
+/* .ishla:hover ~ .ishla{
+  opacity: 0.2;
+} */
+
+.types-of-washing-name {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.types-of-washing-text{
+  width: 700px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.form-wrapper{
+  display: flex;
+}
+
+
+
+
+
+.action-wrapper {
+  position: relative;
+
+
+
+
+}
+
+.next{
+  width: 95px;
+  height: 85px;
+  background-color: #fff;
+  opacity: 0.4;
+  background-image:url(../images/left-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.next-right{
+  width: 95px;
+  height: 85px;
+  background-color: #fff;
+  opacity: 0.4;
+  top: 42%;
+  left: 1195px;
+  background-image: url(../images//right-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center center;
+  cursor: pointer;
+
+
+
+}
+
+.next:hover {
+  opacity: 0.2;
+}
+
+.next-right:hover{
+  opacity: 0.2;
+}
+
+
+.start {
+  border: 0;
+  padding: 0;
+  border-radius: 9px;
+  position: absolute;
+  z-index: 1;
+  top: 227px;
+  left: 20px;
+  cursor: pointer;
+}
+.start-inner {
+
+  background-color: #222;
+  color: #fff;
+  padding: 13px 85px;
+  border-radius: 5px;
+}
+
+.start:hover {
+opacity: 0.8;
+}
+.action-wrapper-list {
+  display: flex;
+  list-style: none;
+}
+.action-wrapper-item {
+
+}
+.action-card {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+  width: 250px;
+  height: 250px;
+  background-color: #474545;
+  cursor: pointer;
+}
+
+.action-card:hover {
+
+  cursor: pointer;
+}
+
+.checkbox:checked + .timer {
+  background-color: #222;
+
+}
+
+.temperature{
+  background-color: rgb(184, 84, 84);
+}
+
+.checkbox:checked + .temprature {
+
+  background-color: #222;
+}
+
+.checkbox:checked + .load{
+  background-color: #222;
+}
+.property {
+  margin-left: 50px;
+  display:block;
+  margin: 0;
+  margin-bottom: 30px;
+  color: rgb(218, 133, 147) ;
+
+}
+.value {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.box {
 }
